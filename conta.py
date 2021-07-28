@@ -38,11 +38,11 @@ class Conta:
     def get_titular(self):
         return self.__titular
 
-    @property
+    @property  #sao metodos get
     def limite(self):
         return self.__limite
 
-    @limite.setter
+    @limite.setter  # sao metodos setter
     def limite(self, limite):
         self.__limite = limite
 
